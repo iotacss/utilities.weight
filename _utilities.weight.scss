@@ -1,0 +1,26 @@
+// Weight Utility
+
+
+
+
+// Dependencies:
+//   Settings.Default
+
+
+
+
+// Options
+
+$iota-weight        : true;
+$iota-weight-sizes  : () !default;
+
+
+
+
+@each $weight-name, $weight-size in $iota-weight-sizes {
+  
+  .#{$iota-utility-namespace}weight-#{$weight-name} {
+    font-weight: #{$weight-size} !important;
+  }
+
+}

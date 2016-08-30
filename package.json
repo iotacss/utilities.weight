@@ -1,0 +1,20 @@
+{
+  "name": "iotacss-weight",
+  "version": "0.1.0",
+  "description": "Weight utility for iotaCSS",
+  "main": "_utilities.weight.scss",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iotacss/utilities.weight.git"
+  },
+  "keywords": [
+    "iotacss",
+    "css",
+    "bem",
+    "oocss"
+  ],
+  "dependencies": {
+    "iotacss-default": "0.1.0"
+  },
+  "author": "Dimitris Psaropoulos <info@harby.me>"
+}
