@@ -18,7 +18,8 @@ npm install --save iotacss-weight
 ### Options ###
 
 ```
-$iota-weight-sizes : () !default;
+$iota-weight-namespace  : weight !default;
+$iota-weight-sizes      : () !default;
 ```
 
 
