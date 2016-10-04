@@ -1,6 +1,6 @@
 {
   "name": "iotacss-weight",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Weight utility for iotaCSS",
   "main": "_utilities.weight.scss",
   "repository": {
