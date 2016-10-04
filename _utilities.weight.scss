@@ -12,7 +12,7 @@
 // Options
 
 $iota-weight            : true;
-$iota-weight-namespace  : weight !default;
+$iota-weight-namespace  : 'weight-' !default;
 $iota-weight-sizes      : () !default;
 
 
@@ -20,7 +20,7 @@ $iota-weight-sizes      : () !default;
 
 @each $weight-name, $weight-size in $iota-weight-sizes {
   
-  .#{$iota-utility-namespace}#{$iota-weight-namespace}-#{$weight-name} {
+  .#{$iota-utility-namespace}#{$iota-weight-namespace}#{$weight-name} {
     font-weight: #{$weight-size} !important;
   }
 
