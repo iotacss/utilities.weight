@@ -1,6 +1,6 @@
 {
-  "name": "iotacss-weight",
-  "version": "0.1.2",
+  "name": "iotacss-utils-weight",
+  "version": "1.0.0",
   "description": "Weight utility for iotaCSS",
   "main": "_utilities.weight.scss",
   "repository": {
@@ -10,11 +10,9 @@
   "keywords": [
     "iotacss",
     "css",
+    "sass",
     "bem",
     "oocss"
   ],
-  "dependencies": {
-    "iotacss-default": "0.1.0"
-  },
   "author": "Dimitris Psaropoulos <info@harby.me>"
 }

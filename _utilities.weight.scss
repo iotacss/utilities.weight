@@ -3,24 +3,29 @@
 
 
 
-// Dependencies:
-//   Settings.Default
-
-
-
-
 // Options
 
-$iota-weight            : true;
-$iota-weight-namespace  : 'weight-' !default;
-$iota-weight-sizes      : () !default;
+$iota-utils-weight            : true;
+
+$iota-utils-weight-namespace  : 'weight-' !default;
+
+$iota-utils-weight-sizes      : () !default;
 
 
 
 
-@each $weight-name, $weight-size in $iota-weight-sizes {
+// Helper Local Variables
+
+$iota-utils-weight-var-weight: $iota-global-utilities-namespace + $iota-utils-weight-namespace;
+
+
+
+
+// Weight Utilities
+
+@each $weight-name, $weight-size in $iota-utils-weight-sizes {
   
-  .#{$iota-utility-namespace}#{$iota-weight-namespace}#{$weight-name} {
+  .#{$iota-utils-weight-var-weight + $weight-name} {
     font-weight: #{$weight-size} !important;
   }
 

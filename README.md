@@ -6,20 +6,16 @@ The weight utility contains helper classes for the font-weight CSS property.
 ### Installation ###
 
 ```
-npm install --save iotacss-weight
+npm install --save iotacss-utils-weight
 ```
-
-
-### Dependencies ###
-
-* [Settings.Default](https://github.com/iotacss/settings.default)
 
 
 ### Options ###
 
 ```
-$iota-weight-namespace  : 'weight-' !default;
-$iota-weight-sizes      : () !default;
+$iota-utils-weight-namespace  : 'weight-' !default;
+
+$iota-utils-weight-sizes      : () !default;
 ```
 
 
