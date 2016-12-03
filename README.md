@@ -22,7 +22,7 @@ $iota-utils-weight-sizes      : () !default;
 ### Example ###
 
 ```sass
-$iota-weight-sizes: (
+$iota-utils-weight-sizes: (
   thin    : 300,
   normal  : 400,
   bold    : 700
